@@ -8,3 +8,7 @@ uhttpd_ubus.so
 install_manifest.txt
 uhttpd
 .vscode
+json-c-0.12/
+json-c/
+libubox/
+ubus/

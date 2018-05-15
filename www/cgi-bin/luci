@@ -1,0 +1,24 @@
+#!/usr/bin/lua
+local function main()
+  print([[
+Status: 200 OK
+Content-Type: text/html
+Cache-Control: no-cache
+Expires: 0
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN http://www.w3.org/TR/html4/strict.dtd">        
+    <html class=" ext-strict">
+      <head>
+      <title>xyz</title>
+      </head>
+  
+      <body>
+        <p>this is a test</p>
+      </body> 
+    </html>
+    ]])
+  end
+main()
